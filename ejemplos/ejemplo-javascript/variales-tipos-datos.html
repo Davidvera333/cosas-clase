@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+</head>
+
+<body>
+    <h1>Lenguajes de guion de uso general</h1>
+    <script>
+        //variable de edad
+        let Edad = 65;
+        let mensaje = "Tu edad es " + Edad;
+        console.log(mensaje); // Salida: "Tu edad es 65"
+
+        //Operadores
+        let a = 10;
+        let b = 5;
+        console.log(a > b && b > 0); // true
+
+        //ejemplo practico con || (or)
+        let edad = 18;
+        let permisoPadres = true;
+        if (edad >= 18 || permisoPadres) {
+            console.log("Puede entrar al sitio web");
+        } else {
+            console.log("No puede entrar al sitio web");
+
+        }
+
+        //operador de igualdad estricta ===
+        console.log(1 === 1); // true
+        console.log(1 === "1"); // false
+        console.log("Maria" === "Maria"); // true
+
+        //operador de desigualdad estricta !==
+        console.log(1 !== 1); // false
+        console.log(1 !== "1"); // true
+        console.log("Maria" !== "Maria"); // false
+
+        //objetos ,son una coleccion de propiedades " clave:valor"
+        let persona = {
+            nombre: "Carlos",
+            edad: 30,
+            //metodo "saludar" que es una funcion dentro del objeto
+            saludo: function () {
+                //devuelve el valor dentro de nombre y edad y los mete dentro de la funcion de "Saludo"
+                return `Hola, soy ${this.nombre} y tengo ${this.edad} años.`;
+            }
+        };
+        console.log(persona.saludo()); // Salida: "Hola, soy Carlos y tengo 30 años"
+
+        //Sentencias y Anidamiento: osea instrucciones que se ejecutan en orden 
+        let age = 21;
+        if (age >= 18) {
+            if (edad >= 21) {
+                console.log("Puede beber alcohol");
+            } else {
+                console.log("No puede beber alcohol");
+            }
+        } else {
+            console.log("Eres menor de edad");
+        }
+        //En el caso de switch , este seria el ejemplo
+        let dia = "sabado";
+        switch (dia) {
+            case "lunes":
+                console.log("Inicio de semana");
+                break;
+            case "Domingo":
+                console.log("Fin de semana");
+                break;
+            default:
+                console.log("Es un dia distinto");
+
+        }
+        //Tipos de bucles ( For - While )
+
+        for (let i = 0; i <= 5; i++) {
+            console.log("Bucle Numeros FOR : " + i);
+        }
+
+        let contador = 0;
+        while (contador <= 5) {
+            console.log("Bucle Numeros WHILE : " + contador);
+            contador++;
+        }
+    </script>
+
+
+</body>
+
+</html>

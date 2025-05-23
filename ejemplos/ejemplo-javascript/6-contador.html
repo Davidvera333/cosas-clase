@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+</head>
+
+<body>
+    <h1>Contador</h1>
+    <!--Muestra el numero actual-->
+    <p id="contador">0</p>
+    <!--Boton para aumentar el contador -->
+    <button onclick="incrementar()">Incrementar</button>
+
+
+    <script>
+        //variable para almacenar el numero actual
+        let numero = 0;
+        //funcion para aumentar el contador
+        function incrementar() {
+            numero++; //suma 1 a la var numero
+            document.getElementById("contador").innerText = numero;
+        }
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos en JS</title>
+</head>
+
+
+
+<body>
+
+    <h1>haz Click en el cuadro</h1>
+
+    <!--Un cuadro al que se le pueda hacer click-->
+    <div id="micuadro" style="width: 100px; height: 100px; background-color: red;"></div>
+
+    <script>
+        //obtiene el elemento con id "micuadro"
+        let cuadro = document.getElementById("micuadro");
+
+        //agrega un evento de click al cuadro
+        cuadro.onclick = function () {
+            //cambia el color de fondo cuand se hace clic
+            cuadro.style.backgroundColor = "blue";
+            alert("Has hecho clic en el cuadro");
+        }
+
+    </script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

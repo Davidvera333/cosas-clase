@@ -1,0 +1,43 @@
+th{
+    border: solid 1px black;
+    background-color: grey;
+    font-family:Arial;
+
+}
+td{
+   text-align: center;
+    }
+td{
+    border: solid 1px black;
+    padding: 3px;
+    font-family:Arial;
+
+}
+table{
+    border-collapse: collapse; /*para que se fusiones los bordes de las tablas*/
+}
+ul{
+    display: flex;
+    padding: 0;
+    list-style-type: none; /*para quitar las viñetas*/
+    font-family:Arial;
+
+}
+
+a{
+    color:black;
+    padding: 10px;
+    text-decoration: none;
+}
+a:hover{
+    color: blueviolet;
+}
+h1, h2{
+    font-family:sans-serif;
+
+}
+iframe{
+    width: 100%;
+    max-width: 560px;
+    
+}

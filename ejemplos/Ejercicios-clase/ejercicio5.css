@@ -1,0 +1,48 @@
+/*cuerpo ehercicio5.hmtl*/
+
+.tarjeta{
+    width: 100%;
+    border-style:solid;
+    border-radius: 10px;
+border-width: 2px;
+color: black;
+box-shadow: 0 4px 6px;
+margin: auto;
+overflow: hidden;
+text-align: center;
+}
+/*imagen ejercicio5.html*/
+.imagen{
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.boton:hover{
+    background-color: brown;}
+
+.boton{
+    padding: 8px;
+    color:white;
+    background-color: black;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 3px;
+}
+
+/*para moviles*/
+@media (min-width:600px ){
+    .tarjeta{
+        max-width: 400px;
+  
+    }
+
+}
+
+@media (min-width:1200px ){
+    .tarjeta{
+        max-width: 1000px;
+  
+    }
+
+}

@@ -1,0 +1,33 @@
+
+.contenedor{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    border-style:solid;
+    border-radius: 10px;
+border-width: 2px;
+color: black;
+box-shadow: 0 4px 6px;
+overflow: hidden;
+text-align: center;
+background-color: rgb(189, 187, 187);
+}
+.imagen{
+    background-color:white;
+    margin-top: 2%;
+    border-width: 1px;
+
+border-radius: 100%;
+border-color: black ;
+border-style: solid;
+}
+p{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+
+
+
+

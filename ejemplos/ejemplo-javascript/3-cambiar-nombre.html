@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cambiar texto</title>
+</head>
+
+<body>
+
+    <!--Este es el texto inicial -->
+    <p id="texto">Este es mi texto original</p>
+    <!--boton para activar el cambio de texto-->
+    <button onclick="cambiartexto()">Haz click aqui</button>
+    <script>
+        //funcion que se ejecuta al hacer click en el boton
+        function cambiartexto() {
+            //cambia el texto del elemente con id "texto"
+            document.getElementById("texto").innerText = "Este es tu nuevo texto";
+
+
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>

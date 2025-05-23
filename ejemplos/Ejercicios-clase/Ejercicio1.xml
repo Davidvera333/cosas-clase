@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Nominados_Goty_2024>
+   <Juego-1>
+        <Nombre>Elden ring Shadow of the erdtree</Nombre>
+        <Compañia>FromSfotware</Compañia>
+        <Mes-Lanzamiento>junio</Mes-Lanzamiento>
+        <Precio>40€</Precio>
+        <Genero>Souls</Genero>
+   </Juego-1>
+
+     <Juego-2>
+        <Nombre>Astrobot</Nombre>
+        <Compañia>SONY</Compañia>
+        <Mes-Lanzamiento>Septiembre</Mes-Lanzamiento>
+        <Precio>50€</Precio>
+        <Genero>Plataformas</Genero>
+   </Juego-2>
+      <Juego-3>
+        <Nombre>Balatro</Nombre>
+        <Compañia>Playstack</Compañia>
+        <Mes-Lanzamiento>Septiembre</Mes-Lanzamiento>
+        <Precio>30€</Precio>
+        <Genero>Juego de azar</Genero>
+
+   </Juego-3>
+   
+</Nominados_Goty_2024>
+

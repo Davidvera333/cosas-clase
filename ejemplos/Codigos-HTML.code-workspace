@@ -1,0 +1,19 @@
+{
+  "folders": [
+	{
+		"path": "../../../Codigos-HTML"
+	},
+	{
+		"path": "."
+	}
+],
+
+  "settings": 
+  {
+    "liveServer.settings.multiRootWorkspaceName": "carpeta-xamp" ,
+	
+  }
+  
+
+}
+ 

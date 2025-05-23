@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>interactuar con el usuario</title>
+</head>
+
+<body>
+    <h1>calculadora basica</h1>
+    <p>Introduce los numeros y lo haremos por ti</p>
+
+    <script>
+        //solicita al usuario que introduzca el primer numero
+        let numero1 = prompt("Introduce el Primer numero");
+        //solicita el usuario que introdzca el segundo numero
+        let numero2 = prompt("Introduce el Segundo numero");
+
+        //convierte los numero introducidos de texto a numeros reales
+        numero1 = parseFloat(numero1);
+        numero2 = parseFloat(numero2);
+
+        //calcula la suma de los dos numeros
+        let suma = numero1 + numero2;
+        //muestra el resultado al usuario
+        alert("la suma de los dos es " + suma);
+
+    </script>
+
+
+
+</body>
+
+</html>
